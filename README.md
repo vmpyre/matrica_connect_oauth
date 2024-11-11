@@ -1,12 +1,6 @@
 # OAuth FastAPI Integration for Matrica Connect
 This project demonstrates a FastAPI app with OAuth 2.1 PKCE authentication flow, utilizing Matrica's OAuth for user authentication. **Don't use this in production.**
 
-## Features
-- **OAuth 2.1 PKCE Authentication**: Secure authentication using Proof Key for Code Exchange (PKCE).
-- **FastAPI Integration**: Built with FastAPI, a high-performance Python web framework.
-- **Jinja2 Templating**: Customizable HTML templates for the authorization and error pages.
-- **Async HTTP Requests**: Uses `httpx` for asynchronous HTTP requests to the Matrica API.
-
 ## Prerequisites
 - Python 3.7+
 - Matrica oauth credentials
