@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matrica Connect</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f5f7fa;
+            color: #333;
+        }
+        .container {
+            text-align: center;
+            background-color: #ffffff;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #102d4f;
+        }
+        p {
+            font-size: 1.1em;
+        }
+        .login-button {
+            margin-top: 20px;
+            display: inline-block;
+        }
+        .login-button img {
+            width: 200px;
+            height: auto;
+            cursor: pointer;
+            transition: opacity 0.3s;
+        }
+        .login-button img:hover {
+            opacity: 0.8;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Matrica Connect</h1>
+        <p>Click the button below to authorize:</p>
+        <a href="{{ authorize_url }}" class="login-button">
+            <img src="https://2946875910-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FLywT3slSQ4GoAk6k17dV%2Fuploads%2FSaQ0j3MtmOxxkaED6Uw8%2Fbtn_matrica_signin_dark.svg?alt=media&token=7ed1992e-4c1e-4187-b712-d81ff1bd0f94" alt="Login with Matrica">
+        </a>
+    </div>
+</body>
+</html>
