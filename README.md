@@ -9,8 +9,8 @@ This project demonstrates a FastAPI app with OAuth 2.1 PKCE authentication flow,
 ### 1. Clone the Repository
 Clone this repository to your local machine:
 ```bash
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
+git clone https://github.com/vmpyre/matrica_connect_oauth.git
+cd matrica_connect_oauth
 ```
 
 ### 2. Install Dependencies
