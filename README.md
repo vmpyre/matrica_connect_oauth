@@ -1,6 +1,8 @@
 # OAuth FastAPI Integration for Matrica Connect
 This project demonstrates a FastAPI app with OAuth 2.1 PKCE authentication flow, utilizing Matrica's OAuth for user authentication. **Don't use this in production.**
 
+![MatricaOauthImage](https://drive.google.com/uc?id=13HLQi0TMRzAHOd9mGo8_eBhXrFbecojB)
+
 ## Prerequisites
 - Python 3.7+
 - Matrica oauth credentials
