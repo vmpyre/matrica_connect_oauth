@@ -1,5 +1,6 @@
 # OAuth FastAPI Integration for Matrica Connect
-This project demonstrates a FastAPI app with OAuth 2.1 PKCE authentication flow, utilizing Matrica's OAuth for user authentication. **Don't use this in production.**
+This project demonstrates a FastAPI app with OAuth 2.1 PKCE authentication flow, utilizing Matrica's OAuth for user authentication. 
+> ⚠️ **Warning: Don't use this in production.**
 
 ![MatricaOauthImage](https://github.com/vmpyre/Project-V/blob/main/images/matrica-oauth-image.png?raw=true)
 
