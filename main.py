@@ -33,6 +33,7 @@ def generate_code_challenge():
     ).decode().rstrip("=")
     return code_verifier, code_challenge
 
+# DON'T USE THIS IN PRODUCTION
 oauth_state = {}
 
 @app.get("/", response_class=HTMLResponse)
@@ -49,7 +50,8 @@ async def main(request: Request):
 async def callback(request: Request, code: str = None, state: str = None, error: str = None):
     if error == "access_denied":
         return templates.TemplateResponse("error.html", {"request": request, "error_message": "You denied the authorization request."})
-        
+
+    # DON'T USE THIS IN PRODUCTION
     code_verifier = oauth_state.pop(state, None)
     if code_verifier is None:
         raise HTTPException(status_code=400, detail="Invalid state")
