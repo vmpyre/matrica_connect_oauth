@@ -32,7 +32,7 @@ CLIENT_SECRET=your-client-secret
 ```
 
 ### 4. Configure Matrica Redirect URL
-In your Matrica dashboard, make sure the Redirect URL is set to:
+In your Matrica dashboard (Development Environment), make sure the Redirect URL is set to:
 ```bash
 http://localhost:8000/callback
 ```
@@ -43,3 +43,4 @@ Start the FastAPI server:
 python main.py
 ```
 The application will run on `http://localhost:8000` by default. Navigate to the URL and try out the matrica connect follow. This code will fetch the authorized user's connected wallets on success.
+> ⚠️ **Warning: Don't use this in production. This is just for testing the matrica connect flow. You must use proper oauth state handling, access token management, SSL, etc. in a production setting. If you have any questions, feel free to DM me.**
