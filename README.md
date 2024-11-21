@@ -2,7 +2,7 @@
 This project demonstrates a FastAPI app with OAuth 2.1 PKCE authentication flow, utilizing Matrica's OAuth for user authentication. 
 > ⚠️ **Warning: Don't use this in production.**
 
-![MatricaOauthImage](https://github.com/vmpyre/Project-V/blob/main/images/matrica-oauth-image.png?raw=true)
+![MatricaOauthImage](https://github.com/vmpyre/Project-V/blob/main/images/matrica-oauth.png?raw=true)
 
 ## Prerequisites
 - Python 3.7+
